@@ -8,8 +8,10 @@
 
 .carousel-inner img{
 	width: 100%;
-	margin: auto;
+}
 
+.carousel-inner{
+	margin-top: -20px;
 }
 
 @media (max-width: 600px){
