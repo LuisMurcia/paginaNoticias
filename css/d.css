@@ -38,6 +38,26 @@
 }
 */
 
-.row my-4{
-	margin: 20px;
+.lg-4{
+	margin-left: 10px;
+
+}
+
+#titulo1{
+	margin-top: 15px;
+	position: relative;
+}
+
+#descripcion1{
+	position: absolute;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	margin-top: 30%;
+	margin-left: 40%;
+}
+
+#anuncio{
+	margin-top: 20px;
+	margin-left: 900px;
+	position: block;
 }
