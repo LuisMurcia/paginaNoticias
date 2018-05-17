@@ -44,16 +44,22 @@
 	filter: sepia(70%);
 }
 
-#anuncio{
-	margin-top: 20px;
-	position: inline-block;
+.publi{
+    position: relative;
+    float: right;
+    top: 18px;
+    right: 105px;
 }
 
 #noticias{
 	transition:all .2s ease-in-out;
+	color: black;
 }
 #noticias:hover{
 	transform: scale(1.03);
+}
+#h h2{
+	color: black;
 }
 
 footer {

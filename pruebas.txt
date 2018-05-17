@@ -10,6 +10,17 @@
 
 
 
+#publiCompleto{
+    background-image: url(../img/anuncio1.gif);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+
+
 <!DOCTYPE html>
 
 <html>
