@@ -1,14 +1,22 @@
 ﻿$(document).ready(function(){
+
+	//Hover que activa todo el thumbnail cuando pasa el raton por el botón que contiene el enlace
 	$("#descripcion").hover(function(){
     	$("#titulo").css("filter", "sepia(70%)");
     	}, function(){
     	$("#titulo").css("filter", "sepia(0%)");
 	});
 
+	//Hover que activa todo el thumbnail cuando pasa el raton por el botón que contiene el enlace
 	$("#boton").hover(function(){
     	$("#noticias").css("transform", "scale(1.03)");
     	}, function(){
     	$("#noticias").css("transform", "scale(1)");
+	});
+
+	//Boton para cargar noticias
+	$("#botonCarga").click(function(){
+		botonCargar();
 	});
 
 });
@@ -26,6 +34,16 @@ $(window).scroll(function(){
 	}
 });
 
+
+function botonCargar(){
+	if(n_json < 4){
+		
+		$.getJSON("https://rawgit.com/LuisMurcia/paginaNoticias/master/json/carga" + n_json + ".json", function (jsonObject){
+			buildCol(jsonObject);
+
+		}); n_json++;
+	}
+};
 
 function buildCol(json){
 	$.each(json, function (x, item){

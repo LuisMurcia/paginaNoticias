@@ -60,7 +60,6 @@ text-decoration:none;
 }
 
 #fecha{
-	transition: 
 	float: right;
 	margin-right: 10px;
 }
@@ -87,8 +86,17 @@ footer ul{
 	border: 0px;
 	border-radius: 6px;
 }
+#localizar:hover{
+	background-color: #0066cc;
+}
 
 #publi1{
 	width: 350px;
 	height: 200px;
+}
+
+#botonCarga{
+	padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 6px;
 }

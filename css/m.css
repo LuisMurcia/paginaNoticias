@@ -95,3 +95,9 @@ footer ul{
 	width: 350px;
 	height: 200px;
 }
+
+#botonCarga{
+	padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 6px;
+}
