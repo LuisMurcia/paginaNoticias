@@ -27,21 +27,25 @@
 	}
 }
 
-#titulo1{
+a:link{ 
+text-decoration:none; 
+}
+
+#titulo{
 	background-color: black;
 	margin-top: 15px;
 	position: relative;
 	border: none;
 	transition:all .5s ease-in-out;
 }
-#descripcion1{
+#descripcion{
+	margin-left: 70px;
+	margin-right: 70px;
 	position: absolute;
 	background-color: rgba(0,0,0,0.4);
 	color: white;
-	margin-top: 145px;
-}
-#titulo1:hover{
-	filter: sepia(70%);
+	margin-top: 100px;
+
 }
 
 .publi{
@@ -54,10 +58,9 @@
 #noticias{
 	transition:all .2s ease-in-out;
 }
-#noticias:hover{
-	transform: scale(1.03);
-}
+
 #fecha{
+	transition: 
 	float: right;
 	margin-right: 10px;
 }

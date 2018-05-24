@@ -1,4 +1,19 @@
-﻿var n_json = 1;
+﻿$(document).ready(function(){
+	$("#descripcion").hover(function(){
+    	$("#titulo").css("filter", "sepia(70%)");
+    	}, function(){
+    	$("#titulo").css("filter", "sepia(0%)");
+	});
+
+	$("#boton").hover(function(){
+    	$("#noticias").css("transform", "scale(1.03)");
+    	}, function(){
+    	$("#noticias").css("transform", "scale(1)");
+	});
+
+});
+
+var n_json = 1;
 
 $(window).scroll(function(){
 	if($(window).scrollTop() + $(window).height() + 4 >= $(document).height()){

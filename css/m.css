@@ -27,24 +27,28 @@
 	}
 }
 
-#titulo1{
+a:link{ 
+text-decoration:none; 
+}
+
+#titulo{
 	background-color: black;
 	margin-top: 15px;
 	position: relative;
 	border: none;
 	transition:all .5s ease-in-out;
 }
-#descripcion1{
+#descripcion{
 	position: absolute;
 	background-color: rgba(0,0,0,0.4);
 	color: white;
-	margin-top: 20%;
 }
-#descripcion1 h2{
+#descripcion h2{
+	font-weight: bold;
 	text-align: center;
 	font-size: 17px;
 }
-#titulo1:hover{
+#titulo:hover{
 	filter: sepia(70%);
 }
 
@@ -57,6 +61,11 @@
 }
 #noticias:hover{
 	transform: scale(1.03);
+}
+#fecha{
+	float: right;
+	margin-right: 10px;
+	margin-top: -10px;
 }
 
 footer {
