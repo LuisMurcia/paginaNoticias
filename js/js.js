@@ -49,8 +49,13 @@ function botonCargar(){
 
 
 function buildCol(json){
+
+	$("#contenido").append(
+        "<div class='row'></div>"
+    );
 	$.each(json, function (x, item){
-		$("#contenido" + rows).append('<div class="col-sm-6">' + 
+		$(".row:last").append(
+			'<div class="col-sm-6">' + 
 			'<div class="thumbnail" id="noticias">' + 
 			'<img src="' + item.img + '" alt="Noticia">' + 
 			'<div class="caption">' + 
@@ -59,7 +64,7 @@ function buildCol(json){
 			'<p class="text-justify">' + item.descripcion + '</p>' + 
 			'<div class="card-footer">' + 
 			'<a href="#" class="btn btn-primary">More Info</a>' + 
-			'</div>' + '</div>' + '</div>' + '</div>')
-		rows++;
+			'</div>' + '</div>' + '</div>' + '</div>' + '</div>'
+			);
 	})
 };
