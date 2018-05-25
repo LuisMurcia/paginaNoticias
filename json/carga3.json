@@ -1,9 +1,11 @@
 ﻿[{
 	"titulo": "Título",
 	"descripcion": "Lorem impsum...",
+	"fecha": "May 25, 2018 - 09:54 (CET)",
 	"img": "img/tecno.jpg"
 }, {
 	"titulo": "Título",
 	"descripcion": "Lorem impsum",
+	"fecha": "May 25, 2018 - 09:54 (CET)",
 	"img": "img/tecno.jpg"
 }]

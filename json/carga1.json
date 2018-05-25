@@ -1,9 +1,11 @@
 ﻿[{
-	"titulo": "Título",
-	"descripcion": "Lorem impsum...",
-	"img": "img/tecno.jpg"
+	"titulo": "Tecnología de última generación para la corrección de miopía, astigmatismo y vista cansada",
+	"descripcion": "Miles de personas en el mundo se someten cada día a cirugía láser ocular para corregir problemas de visión como la miopía o la vista cansada. La cirugía LASIK con láser de Femtosegundo es la técnica más segura y precisa, según las principales sociedades oftalmológicas del mundo.",
+	"fecha": "May 25, 2018 - 09:54 (CET)",
+	"img": "img/noticia6.jpg"
 }, {
 	"titulo": "Título",
 	"descripcion": "Lorem impsum",
+	"fecha": "May 25, 2018 - 09:54 (CET)",
 	"img": "img/tecno.jpg"
 }]

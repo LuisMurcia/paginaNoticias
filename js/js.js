@@ -62,6 +62,7 @@ function buildCol(json){
 			'<h2 class="text-center">' + item.titulo + '</h2>' + '</div>' + 
 			'<div class="caption">' + 
 			'<p class="text-justify">' + item.descripcion + '</p>' + 
+			'<p id="fecha">' + item.fecha + '</p>' + 
 			'<div class="card-footer">' + 
 			'<a href="#" class="btn btn-primary">More Info</a>' + 
 			'</div>' + '</div>' + '</div>' + '</div>' + '</div>'
