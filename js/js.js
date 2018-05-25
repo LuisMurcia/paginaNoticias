@@ -22,6 +22,7 @@
 });
 
 var n_json = 1;
+var rows = 3;
 
 $(window).scroll(function(){
 	if($(window).scrollTop() + $(window).height() + 4 >= $(document).height()){
@@ -45,9 +46,11 @@ function botonCargar(){
 	}
 };
 
+
+
 function buildCol(json){
 	$.each(json, function (x, item){
-		$("#contenido").append('<div class="col-sm-6">' + 
+		$("#contenido" + rows).append('<div class="col-sm-6">' + 
 			'<div class="thumbnail" id="noticias">' + 
 			'<img src="' + item.img + '" alt="Noticia">' + 
 			'<div class="caption">' + 
@@ -57,5 +60,6 @@ function buildCol(json){
 			'<div class="card-footer">' + 
 			'<a href="#" class="btn btn-primary">More Info</a>' + 
 			'</div>' + '</div>' + '</div>' + '</div>')
+		rows++;
 	})
 };
