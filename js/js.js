@@ -22,7 +22,6 @@
 });
 
 var n_json = 1;
-var rows = 3;
 
 $(window).scroll(function(){
 	if($(window).scrollTop() + $(window).height() + 4 >= $(document).height()){
