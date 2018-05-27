@@ -12,7 +12,8 @@
 }
 
 #logo img{
-	height: 25px;width: auto;
+	height: 25px;
+	width: auto;
 }
 
 .carousel-inner img{
@@ -28,7 +29,24 @@
 }
 
 a:link{ 
-text-decoration:none; 
+	text-decoration:none; 
+}
+
+#thub1{
+	padding: 20px;
+}
+#noticia1{
+	margin-top: 17px;
+	margin-left: 20px;
+}
+#texto1{
+	font-size: 20px;
+}
+#critica1{
+	background-color: #cccccc;
+	width: 80%;
+	margin-left: 10%;
+	padding: 5px;
 }
 
 #titulo{
@@ -53,6 +71,9 @@ text-decoration:none;
     float: right;
     top: 18px;
     right: 105px;
+}
+.publiM{
+	display: none;
 }
 
 #noticias{
@@ -98,5 +119,11 @@ footer ul{
 #botonCarga{
 	padding: 10px;
 	margin-bottom: 15px;
+	border-radius: 6px;
+}
+
+#volver{
+	padding: 10px;
+	margin-top: 25px;
 	border-radius: 6px;
 }

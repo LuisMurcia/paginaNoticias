@@ -63,7 +63,7 @@ function buildCol(json){
 			'<p class="text-justify">' + item.descripcion + '</p>' + 
 			'<p id="fecha">' + item.fecha + '</p>' + 
 			'<div class="card-footer">' + 
-			'<a href="#" class="btn btn-primary">More Info</a>' + 
+			'<a href="#" class="btn btn-primary">Más Info</a>' + 
 			'</div>' + '</div>' + '</div>' + '</div>' + '</div>'
 			);
 	})
