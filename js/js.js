@@ -24,7 +24,7 @@
 var n_json = 1;
 
 $(window).scroll(function(){
-	if($(window).scrollTop() + $(window).height() + 4 >= $(document).height()){
+	if($(window).scrollTop() + $(window).height() + 50 >= $(document).height()){
 		if (n_json < 4) {
 
 			$.getJSON("https://rawgit.com/LuisMurcia/paginaNoticias/master/json/carga" + n_json + ".json", function (jsonObject){
