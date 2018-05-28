@@ -22,7 +22,7 @@
 });
 
 var n_json = 1;
-
+/*Informa explora descubre*/
 $(window).scroll(function(){
 	if($(window).scrollTop() + $(window).height() + 50 >= $(document).height()){
 		if (n_json < 4) {
