@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
 
     <head>
         <title>Crazy Technology - Tu página de noticias sobre tecnología, ciencia y videojuegos</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:site_name" content="Crazy Technology - Página de noticias">
+        <meta property="og:url" content="https://rawgit.com/LuisMurcia/paginaNoticias/master/principal.html">
+        <meta property="og:title" content="Crazy Technology">
+        <meta property="og:image" content="img/metaLogo.png">
+        <meta property="og:description" content="Crazy Technology - Tu página de noticias sobre tecnología, ciencia y videojuegos">
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -131,7 +138,7 @@
                             <p class="text-justify">Movistar, Netflix y Amazon ostentan el top 3 de las plataformas con más usuarios en España, que crece a un ritmo imparable desde hace un par de años.</p>
                             <p id="fecha2">May 25, 2018 - 16:00 (CET)</p>
                             <div class="card-footer">
-                                <a href="noticia2.html" class="btn btn-primary">Más Info</a>
+                                <a href="noticia2.html" class="btn btn-primary" id="boton">Más Info</a>
                             </div>  
                         </div>
                 </div>
@@ -191,7 +198,7 @@
         <button type="button" class="btn btn-primary center-block" id="botonCarga">Cargar más noticias</button>
 
         <footer>
-            <div class="footerHeader" >
+            <div class="footerHeader">
                 <div class="container">
                     <div class="col-md-4" >
                         <h3>Encuéntranos en</h3>
