@@ -22,9 +22,9 @@
 });
 
 var n_json = 1;
-/*Informa explora descubre*/
+
 $(window).scroll(function(){
-	if($(window).scrollTop() + $(window).height() + 50 >= $(document).height()){
+	if($(window).scrollTop() + $(window).height() + 55 >= $(document).height()){
 		if (n_json < 4) {
 
 			$.getJSON("https://rawgit.com/LuisMurcia/paginaNoticias/master/json/carga" + n_json + ".json", function (jsonObject){
@@ -46,7 +46,6 @@ function botonCargar(){
 };
 
 
-
 function buildCol(json){
 
 	$("#contenido").append(
@@ -55,7 +54,7 @@ function buildCol(json){
 	$.each(json, function (x, item){
 		$(".row:last").append(
 			'<div class="col-sm-6">' + 
-			'<div class="thumbnail" id="noticias">' + 
+			'<div class="thumbnail">' + 
 			'<img src="' + item.img + '" alt="Noticia">' + 
 			'<div class="caption">' + 
 			'<h2 class="text-center">' + item.titulo + '</h2>' + '</div>' + 

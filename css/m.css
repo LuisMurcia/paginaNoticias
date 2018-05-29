@@ -18,13 +18,14 @@
 .carousel-inner img{
 	width: 100%;
 }
-.carousel-inner{
-	margin-top: -20px;
+.carousel-caption{
+	
+	display: inline-block;
+	font-weight: bold;
+	margin-top: 10px;
 }
-@media (max-width: 600px){
-	.carousel-caption{
-		display: none;
-	}
+.carousel-caption h1{
+	display: none;
 }
 
 a:link{ 
@@ -62,7 +63,7 @@ text-decoration:none;
 #noticias:hover{
 	transform: scale(1.03);
 }
-#fecha{
+#fecha, #fecha1, #fecha2, #fecha3, #fecha4, #fecha5{
 	float: right;
 	margin-right: 10px;
 	margin-top: -10px;
@@ -91,13 +92,34 @@ footer ul{
 	border-radius: 6px;
 }
 
-#publi1{
-	width: 350px;
-	height: 200px;
-}
-
 #botonCarga{
 	padding: 10px;
 	margin-bottom: 15px;
 	border-radius: 6px;
+}
+
+#volver{
+	padding: 10px;
+	margin-top: 15px;
+	border-radius: 6px;
+}
+
+.publiM{
+	text-align: center;
+}
+
+#thub1{
+	padding: 10px;
+}
+#noticia1{
+	margin-top: 20px;
+}
+#texto1{
+	font-size: 18px;
+}
+#critica1{
+	background-color: #cccccc;
+	width: 94%;
+	margin-left: 3%;
+	padding: 4px;
 }
