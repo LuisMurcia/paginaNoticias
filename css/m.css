@@ -97,6 +97,13 @@ footer ul{
 	margin-bottom: 15px;
 	border-radius: 6px;
 }
+#scrolling{
+	border-radius: 6px;
+	padding: 5px;
+	float: left;
+	margin-left: 14px;
+	margin-bottom: 8px;
+}
 
 #volver{
 	padding: 10px;

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+	<noticias>
+
+		<noticia>
+			<titulo>'Avengers: Infinity War', la película de superhéroes más exitosa de la historia</titulo>
+			<descripcion>Es oficialmente, la película de superhéroes más exitosa que se ha realizado. Además, está a punto de convertirse en el largometraje de verano más exitoso en la historia.</descripcion>
+			<fecha>May 14, 2018 - 19:45 (CET)</fecha>
+			<imagen>../img/hola.jpg</imagen>
+			<link>../noticia1.html</link>
+		</noticia>
+
+
+		<noticia>
+			<titulo>Netflix ya está en segunda posición del ranking del streaming España</titulo>
+			<descripcion>Movistar, Netflix y Amazon ostentan el top 3 de las plataformas con más usuarios en España, que crece a un ritmo imparable desde hace un par de años.</descripcion>
+			<fecha>May 25, 2018 - 16:00 (CET)</fecha>
+			<imagen>../img/noticia2.jpg</imagen>
+			<link>../noticia2.html</link>
+		</noticia>
+
+	</noticias>
+
+</rss>

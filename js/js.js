@@ -19,17 +19,34 @@
 		botonCargar();
 	});
 
+	$("#scrolling").click(function(){
+		activarScroll();
+	});
+
 });
 
 var n_json = 1;
+var scrolled = true;
+
+function activarScroll(){
+	if (scrolled) {
+		scrolled = false;
+		$("#scrolling").text("No carga con Scroll");
+	}else{
+		scrolled = true;
+		$("#scrolling").text("Carga con Scroll");
+	}
+}
+
 
 $(window).scroll(function(){
-	if($(window).scrollTop() + $(window).height() + 55 >= $(document).height()){
-		if (n_json < 4) {
-
-			$.getJSON("https://rawgit.com/LuisMurcia/paginaNoticias/master/json/carga" + n_json + ".json", function (jsonObject){
-				buildCol(jsonObject);
-			}); n_json++;
+	if (scrolled) {
+		if($(window).scrollTop() + $(window).height() + 55 >= $(document).height()){
+			if (n_json < 4) {
+				$.getJSON("https://rawgit.com/LuisMurcia/paginaNoticias/master/json/carga" + n_json + ".json", function (jsonObject){
+					buildCol(jsonObject);
+				}); n_json++;
+			}
 		}
 	}
 });
@@ -37,10 +54,8 @@ $(window).scroll(function(){
 
 function botonCargar(){
 	if(n_json < 4){
-		
 		$.getJSON("https://rawgit.com/LuisMurcia/paginaNoticias/master/json/carga" + n_json + ".json", function (jsonObject){
 			buildCol(jsonObject);
-
 		}); n_json++;
 	}
 };
