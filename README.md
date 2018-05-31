@@ -18,7 +18,7 @@ CARACTERÍSTICAS
 - Añadidos los meta datos de compartición para Facebook.
 
 DISEÑO
-- Diseño visualmente cómodo; tonalidades oscuras decantándose hacia el azul para dar una homogeniedad a la página.
+- Diseño visualmente cómodo; tonalidades oscuras decantándose hacia el azul para dar una homogeniedad visual a la página.
 - Carousel inicial que aporta una pequeña presentación de la página.
 - Implementado un "footer" con 3 "cols" para que quede bien distribuido.
 - Las dos noticias que se han redactado contienen un vídeo de YouTube, cada una se ha efectuado mediante un ´"iframe".
