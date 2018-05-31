@@ -1,7 +1,7 @@
 # paginaNoticias
 
 Link Rawgit: https://rawgit.com/LuisMurcia/paginaNoticias/master/principal.html  
-Link versión minimificada: https://github.com/LuisMurcia/paginaNoticias/tree/minify_v
+Link versión minimificada: https://rawgit.com/LuisMurcia/paginaNoticias/minify_v/principal.html
 
 ESTRUCTURA
 - 3 archivos html implementados con Boostrap 3 y CSS. Dos para redactar las dos primeras noticias. Uno principal que contiene el mayor contenido de la página, este se encuentra vinculado a un JavaScript (JQuery) para implementar según que funciones como la de cargar noticias.
