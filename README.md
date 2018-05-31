@@ -1,4 +1,4 @@
-# paginaNoticias
+# Crazy Technology
 
 Link Rawgit: https://rawgit.com/LuisMurcia/paginaNoticias/master/principal.html  
 Link versión minimificada: https://rawgit.com/LuisMurcia/paginaNoticias/minify_v/principal.html
@@ -15,6 +15,7 @@ CARACTERÍSTICAS
 - Añadido y validado RSS como formato XML.
 - Todo el código HTML ha pasado las pruebas de vaidación sin errores ni advertencias.
 - Las noticias cargan tanto con scroll como con el botón. A no ser que se active el botón de cargar solo con el botón.
+- Añadidos los meta datos de compartición para Facebook.
 
 DISEÑO
 - Diseño visualmente cómodo; tonalidades oscuras decantándose hacia el azul para dar una homogeniedad a la página.
